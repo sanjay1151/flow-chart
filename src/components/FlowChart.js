@@ -34,6 +34,7 @@ const FlowChart = () => {
           onElementsRemove={onElementsRemove}
           onConnect={onConnect}
           nodesDraggable={false}
+          nodesConnectable={false}
           nodeTypes={nodeTypes}
           zoomOnDoubleClick={false}
           panOnScroll={false}
